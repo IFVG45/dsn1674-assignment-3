@@ -2,7 +2,7 @@
 html {
   background-color: #d8b5ef;
 
-  color:#fff
+  color:black
 }
 
 h1 {
@@ -43,7 +43,7 @@ p{
   color: #3f0464;
   font-family:georgia,sans-serif;
   font-weight: 50;
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   text-align: left;
   line-height: 1;
 }
@@ -66,4 +66,10 @@ blockquote {
 
 ol{
   list-style-type:lower-roman;
+}
+
+dt{
+
+  font-weight: bold;
+
 }

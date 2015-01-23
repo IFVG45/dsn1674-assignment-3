@@ -1,64 +1,29 @@
 /*this is a CSS comment */
 html {
-  background-color: #000000;
-
-
-  color: #a40041;
+  background-color: #ffffff;
 }
 
 h1, h2 {
-  color: #a40041;
-  font-weight: normal;
-  font-size: 5rem;
-  line-height: 1;
-  text-shadow: 2px -5px 10px red;
+  color: #79756f;
+  font-family:georgia,sans-serif;
 
-  /*
-  text shadow
-  horizontal offset
-  vertical offset
-  blur radius/size
-  colour
-  */
-}
-
-p {
+blockquote {
   font-style: italic;
   text-align: center;
-  /*
-  left
-  center
-  right
-  justify
-  */
-
-  /*
-  text-decoration: underline;
-  text-decoration: line-through;
-  */
-  font-family: 'Oswald', sans-serif;
 }
 
 ol {
-  list-style-type: disc;
-  /*
-  none
-  lower-roman
-  lower-alpha
-  decimal
-  circle
-  disc
-  */
+  list-style-type:lower-roman;
 
-  /*
-  padding: 0;
-  */
+<li>Mercury</li>
+<li>Venus</li>
+<li>Earth</li>
+<li>Mars</li>
+
+
+
 }
 
-a {
-  color: green;
-}
-
-a:hover {
-  color: orange;
+p {
+  font-size= 0.8 rem;
 }
